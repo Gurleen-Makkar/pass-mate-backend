@@ -1,0 +1,36 @@
+# Exclude node_modules
+node_modules/
+
+# Exclude development dependencies
+.env.local
+.env.development
+.env.test
+
+# Exclude logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Exclude development files
+.git/
+.gitignore
+README.md
+docs/
+
+# Exclude IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Exclude OS files
+.DS_Store
+Thumbs.db
+
+# Exclude test files
+test/
+tests/
+*.test.js
+*.spec.js
